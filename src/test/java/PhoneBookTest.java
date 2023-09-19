@@ -38,7 +38,7 @@ public class PhoneBookTest {
         phoneBook.add("Bob", "123456789");
         phoneBook.add("Alice", "987654321");
         phoneBook.add("Charlie", "555555555");
-        List<String> expectedNames = Arrays.asList("Charlie", "Bob", "Alice");
+        List<String> expectedNames = Arrays.asList("Alice", "Bob", "Charlie");
         List<String> actualNames = phoneBook.printAllNames();
         assertEquals(expectedNames, actualNames);
     }
